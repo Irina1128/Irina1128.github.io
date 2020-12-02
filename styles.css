@@ -1,10 +1,10 @@
-.menu_item{
+.menu__item{
   padding: 0 13px;
   font: 500 18px/21px robotobold, arial, helvetica, sans-serif;
   color:#000000;
   text-decoration: none;
 }
-.menu_item:last-child{
+.menu__item:last-child{
   padding-right: 0;
 }
 .menu{
