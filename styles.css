@@ -1,3 +1,7 @@
+.menu__item_active::after{
+  display: block;
+  content: '';
+}
 .menu__item{
   padding: 0 13px;
   font: 500 18px/21px robotobold, arial, helvetica, sans-serif;
