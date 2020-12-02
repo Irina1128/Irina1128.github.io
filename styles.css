@@ -68,6 +68,7 @@ body{
 .main{
   padding-top: 100px;
   padding-right: 63%;
+  background: url(img/mainimg.svg);
 }
 .main__title{
   margin: 0 0 40px 0;
