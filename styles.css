@@ -1,6 +1,7 @@
 .menu_item{
   padding: 0 13px;
   font: 500 18px/21px robotobold, arial, helvetica, sans-serif;
+  color:#000000;
 }
 .menu_item:last-child{
   padding-right: 0;
