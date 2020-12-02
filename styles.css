@@ -1,8 +1,14 @@
 .menu__item_active::after{
+  position: absolute;
   display: block;
   content: '';
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #0056EC;
 }
 .menu__item{
+  position: relative;
   padding: 0 13px;
   font: 500 18px/21px robotobold, arial, helvetica, sans-serif;
   color:#000000;
