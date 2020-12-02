@@ -70,10 +70,10 @@ body{
   width: 37%;
 }
 .main-content__title{
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
   font: bold 66px/87px pt_serifbold, arial, helvetica, sans-serif;
 }
 .main-content__subtitle {
-  margin-bottom: 41px;
+  margin: 0 0 41px 0;
   font: 400 22px/26px robotoregular, arial, helvetica, sans-serif;
 }
