@@ -57,7 +57,7 @@
 .header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 206px;
+  margin-bottom: 100px;
 }
 .wrapper{
   margin: auto;
@@ -72,7 +72,7 @@ body{
 }
 .main__title{
   margin: 0 0 40px 0;
-  font: bold 66px/87px pt_serifbold, arial, helvetica, sans-serif;
+  font: bold 50px/65px pt_serifbold, arial, helvetica, sans-serif;
 }
 .main__title-text_highlight{
   background: #ecf3ff;
