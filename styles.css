@@ -168,4 +168,9 @@ body{
 #menu__toggle {
   opacity: 0;
 }
+@media (min-width: 768px){
+  .hamburger-menu{
+    display: none;
+  }
+}
 
