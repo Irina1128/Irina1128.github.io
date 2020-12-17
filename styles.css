@@ -129,5 +129,12 @@ body{
   padding: 0 53% 400px 0;
   background: top right no-repeat url(img/mainimg.svg);
   background-size: 53%;
+  }
+}
+@media (max-width: 1024px){
+.wrapper{
+  margin: auto;
+  width: 91%;
+  }
 }
 /*адаптация конец*/
