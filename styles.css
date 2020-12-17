@@ -118,27 +118,7 @@ body{
   .main__button{
   font:500 16px/19px robotobold, arial, helvetica, sans-serif;  
   }
-}
-
-@media (max-width: 1366px){
-  .main{
-  padding: 0 53% 150px 0;
-  background: top right no-repeat url(img/mainimg.svg);
-  background-size: 53%;
-  }
-}
-@media (max-width: 1024px){
-.wrapper{
-  margin: auto;
-  width: 91%;
-  }
-}
-/*адаптация конец*/
-/* скрываем чекбокс */
-#menu__toggle {
-  opacity: 0;
-}
-/* стилизуем кнопку */
+  /* стилизуем кнопку */
 .menu__btn {
   display: flex; /* используем flex для центрирования содержимого */
   align-items: center;  /* центрируем содержимое кнопки */
@@ -168,3 +148,24 @@ body{
   content: '';
   top: 8px;
 }
+}
+
+@media (max-width: 1366px){
+  .main{
+  padding: 0 53% 150px 0;
+  background: top right no-repeat url(img/mainimg.svg);
+  background-size: 53%;
+  }
+}
+@media (max-width: 1024px){
+.wrapper{
+  margin: auto;
+  width: 91%;
+  }
+}
+/*адаптация конец*/
+/* скрываем чекбокс */
+#menu__toggle {
+  opacity: 0;
+}
+
