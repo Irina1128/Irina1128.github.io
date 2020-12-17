@@ -95,7 +95,7 @@ body{
   opacity: .5;
 }
 /*адаптация под моб.уст-ва*/
-@media (max-width: 768px) {
+@media (max-width: 1500px) {
   .menu{
     display: none;
   }
