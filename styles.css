@@ -120,7 +120,7 @@ body{
   }
 }
 
-@media (max-width: 1460px){
+@media (max-width: 1366px){
 .wrapper{
   margin: auto;
   width: 70%;
@@ -128,5 +128,6 @@ body{
   .main{
   padding: 0 53% 400px 0;
   background: top right no-repeat url(img/mainimg.svg);
+  background-size: 53%;
 }
 /*адаптация конец*/
