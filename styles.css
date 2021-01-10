@@ -45,11 +45,27 @@ body{
   font: 500 18px/21px robotobold, arial, helvetica, sans-serif;
   color: #000000;
   text-decoration: none;
+  transition: opacity .5s;
+}
+.menu__item:after{
+  position: relative;
+  margin-right: 26px;
+  font: 500 18px/21px robotobold, arial, helvetica, sans-serif;
+  color: #000000;
+  text-decoration: none;
+  transition: .5s;
+}
+.menu__item:hover{
+  opacity: .5;
+}
+.menu__item:hover:after, .menu__item_active:after{
+  opacity: 1;
+  width: 100%;
 }
 .menu__item:last-child{
   margin-right: 0;
 }
-.menu__item_active::after{
+.menu__item_active:after{
   position: absolute;
   display: block;
   content: '';
@@ -58,15 +74,9 @@ body{
   height: 3px;
   background: #0056EC;
   opacity: 0;
-  transition: opacity .5s, width .5s;
+  transition: .5s;
 }
-.menu__item:hover{
-  opacity: .5;
-}
-.menu__item:hover::after, .menu__item_active::after{
-  opacity: 1;
-  width: 100%;
-}
+
 .main{
   padding: 0 63% 300px 0;
   background: top right no-repeat url(img/mainimg.svg);
