@@ -67,7 +67,7 @@ body{
   opacity: 1;
 }
 .main{
-  padding: 0 63% 00px 0;
+  padding: 0 63% 200px 0;
   background: top right no-repeat url(img/mainimg.svg);
 }
 .main__title{
