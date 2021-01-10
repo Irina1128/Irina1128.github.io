@@ -34,10 +34,10 @@ body{
   top: 56%;
   background: #C8DBFB;
 }
-.menu_item{
+.menu__item{
   padding: 0 13px;
 }
-.menu_item:last-child{
+.menu__item:last-child{
   padding-right: 0;
 }
 .menu{
