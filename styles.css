@@ -101,20 +101,7 @@ body{
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
-  animation: ring 1.5s infinite;
 }
 .main__button:hover{
   opacity: .5;
-}
-@keyframes ring {
-  0% {
-    width: 30px;
-    height: 30px;
-    opacity: 1;
-  }
-  100% {
-    width: 300px;
-    height: 300px;
-    opacity: 0;
-  }
 }
