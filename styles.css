@@ -105,7 +105,7 @@ body{
 .main__button:hover{
   opacity: .5;
 }
-@media (min-width: 1080px) {
+@media (min-width: 1024px) {
 .hamburger-menu{
   display: none;
   }
