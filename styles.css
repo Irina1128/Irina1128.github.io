@@ -134,4 +134,16 @@ body{
   .main__button{
     font: 500 14px/16px robotoregular, arial, helvetica, sans-serif;
   }
+  /*скрываем чекбокс*/
+  #menu__toggle{
+    opacity:0;
+  }
+  /*стилизуем кнопку*/
+  .menu__btn{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left:20px;
+  }
 }
