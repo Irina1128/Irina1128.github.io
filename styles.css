@@ -144,9 +144,9 @@ body{
     align-items: center;
     position: fixed;
     top: 32px;
-    right: 24px;
+    right: 6%;
     width: 25px;
-    height: 27px;
+    height: 17px;
     cursor: pointer;
     z-index: 1;
   }
@@ -162,10 +162,10 @@ body{
 }
 .menu__btn > span::before {
   content: '';
-  top: -4px;
+  top: -8px;
 }
 .menu__btn > span::after {
   content: '';
-  top: 4px;
+  top: 8px;
 }
 }
