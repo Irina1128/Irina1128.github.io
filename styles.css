@@ -105,6 +105,9 @@ body{
 .main__button:hover{
   opacity: .5;
 }
+.hamburger-menu{
+  display: none;
+}
 @media (max-width: 768px){
   .menu {
     display: none;
@@ -120,6 +123,10 @@ body{
   }
   .main__title{
     margin-bottom: 44px;
+    font: bold 30px/39px robotobold, arial, helvetica, sans-serif;
+  }
+  .main__subtitle{
+    margin-bottom: 25px;
     font: 500 16px/19px robotoregular, arial, helvetica, sans-serif;
   }
   .main__button{
