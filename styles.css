@@ -185,9 +185,26 @@ body{
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
 }
 /* элементы меню */
-.menu__item {
+.menu-hamburger__item {
   display: block;
   padding: 12px 24px;
   color: #000;
   font: 500 30px/35px robotoregular, arial, helvetica, sans-serif;
+  text-decoration: none;
+}
+  #menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
 }
