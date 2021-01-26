@@ -118,11 +118,7 @@ body{
   margin: 0 40% 41px 0;
  }
 }
-@media (min-width: 1024px) {
-.hamburger-menu{
-  display: none;
-  }
-}
+
 @media (max-width: 1024px) {
   .main{
   padding: 0 55% 300px 0;
@@ -135,8 +131,13 @@ body{
   width: 91%;
   }
   .header{
-    margin-bottom: 40px;
+    margin-bottom: 85px;
  }
+}
+@media (min-width: 768px) {
+.hamburger-menu{
+  display: none;
+  }
 }
 @media (max-width: 768px){
   .menu {
