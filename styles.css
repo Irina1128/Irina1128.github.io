@@ -144,7 +144,7 @@ body{
   }
  .logo {
     position: relative;
-    padding: 24px 0 40px 44px;
+    padding: 0 0 40px 44px;
     font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;
   }
    /*скрываем чекбокс*/
