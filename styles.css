@@ -113,8 +113,10 @@ body{
   padding: 0 47% 300px 0;
   background-size:65%;
 }
+ 
   .main__subtitle {
   margin: 0 40% 41px 0;
+ }
 }
 @media (min-width: 1024px) {
 .hamburger-menu{
