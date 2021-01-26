@@ -185,7 +185,7 @@ body{
   top: 0;
   width: 50%;
   height: 100%;
-  margin: 0;
+  margin: 0 50% 0 0;
   padding: 186px 0;
   list-style: none;
   text-align: center;
@@ -269,27 +269,4 @@ body{
   /* контейнер меню */
 .menu__box {
   width: 100%;
-/* элементы меню */
-.menu-hamburger__item {
-  display: block;
-  padding: 12px 24px;
-  color: #000;
-  font: 500 30px/35px robotoregular, arial, helvetica, sans-serif;
-  text-decoration: none;
-}
-  #menu__toggle:checked ~ .menu__btn > span {
-  transform: rotate(45deg);
-}
-#menu__toggle:checked ~ .menu__btn > span::before {
-  top: 0;
-  transform: rotate(0);
-}
-#menu__toggle:checked ~ .menu__btn > span::after {
-  top: 0;
-  transform: rotate(90deg);
-}
-#menu__toggle:checked ~ .menu__box {
-  visibility: visible;
-  left: 0;
-}
 }
