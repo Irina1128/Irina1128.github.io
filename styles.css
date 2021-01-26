@@ -111,9 +111,6 @@ body{
   }
 }
 @media (max-width: 1024px) {
-.menu {
-    display: none;
-  }
   .header{
     margin-bottom: 40px;
   }
