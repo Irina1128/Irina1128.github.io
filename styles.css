@@ -122,26 +122,15 @@ body{
   }
 }
 @media (max-width: 1024px) {
+  .wrapper{
+  width: 91%;
+}
   .header{
     margin-bottom: 40px;
   }
   .main {
      padding: 0 57% 300px 0;
   }
-  .main__title{
-    margin-bottom: 40px;
-    font: bold 50px/65px pt_serifbold, arial, helvetica, sans-serif;
-  }
-  .main__subtitle{
-    margin-bottom: 25px;
-    font: 500 18px/21px robotoregular, arial, helvetica, sans-serif;
-  }
-  .main__button{
-    font: 500 14px/16px robotoregular, arial, helvetica, sans-serif;
-  }
-  .menu__item{
-  font: 500 14px/16px robotobold, arial, helvetica, sans-serif;
-}
 }
 @media (max-width: 768px){
   .menu {
