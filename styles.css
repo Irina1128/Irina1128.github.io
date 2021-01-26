@@ -139,7 +139,7 @@ body{
   display: none;
   }
 }
-@media (max-width: 980px) {
+@media (max-width: 979px) {
 .menu {
     display: none;
   }
