@@ -80,7 +80,6 @@ body{
 .main{
   padding: 0 63% 300px 0;
   background: top right no-repeat url(img/mainimg.svg);
-  background-size:65%;
 }
 .main__title{
   margin: 0 0 40px 0;
@@ -112,7 +111,10 @@ body{
 }
   .main{
   padding: 0 47% 300px 0;
+  background-size:65%;
 }
+  .main__subtitle {
+  margin: 0 40% 41px 0;
 }
 @media (min-width: 1024px) {
 .hamburger-menu{
