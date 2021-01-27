@@ -79,6 +79,7 @@ body{
 .main{
   padding: 103px 63% 400px 0;
   background: top right no-repeat url(img/mainimg.svg);
+  background-size: 50%;
 }
 .main__title{
   margin: 0 0 40px 0;
@@ -110,7 +111,6 @@ body{
 }
   .main{
   padding: 0 47% 100px 0;
-  background-size:65%;
 }
  
   .main__subtitle {
@@ -121,7 +121,6 @@ body{
 @media (max-width: 1024px) {
   .main{
   padding: 0 55% 100px 0;
-  background-size:55%;
 }
   .main__subtitle {
   margin: 0 10% 41px 0;
