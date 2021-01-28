@@ -106,14 +106,18 @@ body{
   opacity: .5;
 }
 @media (max-width: 1366px){
-  .header{
+ .wrapper{
+  width: 68%;
+  }
+  
+ .header{
   margin-bottom: 85px;
   }
   .menu__item{
   font: 500 14px/16px robotobold, arial, helvetica, sans-serif;
 }
   .main{
-  padding: 25px 47% 100px 0;
+  padding: 15px 47% 100px 0;
 }
  
   .main__subtitle {
