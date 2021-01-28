@@ -124,7 +124,10 @@ body{
   margin: 0 40% 41px 0;
  }
 }
-
+@media (max-width: 1208px) {
+  .wrapper{
+  width: 91%;
+  }
 @media (max-width: 1024px) {
   .main{
   padding: 15px 55% 100px 0;
@@ -132,9 +135,6 @@ body{
   .main__subtitle {
   margin: 0 10% 41px 0;
  }
-  .wrapper{
-  width: 91%;
-  }
   .header{
     margin-bottom: 85px;
  }
