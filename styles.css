@@ -127,7 +127,7 @@ body{
 
 @media (max-width: 1024px) {
   .main{
-  padding: 0 55% 100px 0;
+  padding: 15px 55% 100px 0;
 }
   .main__subtitle {
   margin: 0 10% 41px 0;
@@ -268,4 +268,16 @@ body{
   .main__subtitle {
   margin: 0 13% 25px;
  }
+  .wrapper{
+  width: 87%;
+}
+  .header{
+    margin-bottom: 0px;
+ }
+  .logo{
+  padding: 40px 0 28px 44px;
+  }
+  .main__button{
+    margin-bottom: 112px;
+  }
 }
