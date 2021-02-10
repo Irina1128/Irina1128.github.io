@@ -139,7 +139,7 @@ body{
     margin-bottom: 85px;
  }
 }
-@media (min-width: 981px) {
+@media (min-width: 980px) {
 .hamburger-menu{
   display: none;
   }
