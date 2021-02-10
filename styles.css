@@ -105,11 +105,11 @@ body{
 .main__button:hover{
   opacity: .5;
 }
+
 @media (max-width: 1366px){
  .wrapper{
   width: 68%;
   }
-  
  .header{
   margin-bottom: 85px;
   }
@@ -150,10 +150,6 @@ body{
   }
  .logo{
   color: transparent;
-  }
-   /*скрываем чекбокс*/
-  #menu__toggle{
-    opacity:0;
   }
   /*стилизуем кнопку*/
  .menu__btn{
