@@ -119,15 +119,10 @@ body{
   .main{
   padding: 15px 47% 100px 0;
 }
- 
   .main__subtitle {
   margin: 0 40% 41px 0;
  }
 }
-@media (max-width: 1208px) {
-  .wrapper{
-  width: 91%;
-  }
 @media (max-width: 1024px) {
   .main{
   padding: 15px 55% 100px 0;
@@ -138,6 +133,11 @@ body{
   .header{
     margin-bottom: 85px;
  }
+}
+@media (max-width: 1208px) {
+  .wrapper{
+  width: 91%;
+  }
 }
 @media (min-width: 980px) {
 .hamburger-menu{
@@ -150,6 +150,10 @@ body{
   }
  .logo{
   color: transparent;
+  }
+  /*скрываем чекбокс*/
+  #menu__toggle{
+    opacity:0;
   }
   /*стилизуем кнопку*/
  .menu__btn{
@@ -242,10 +246,7 @@ body{
   .main__button{
     font: 500 14px/16px robotoregular, arial, helvetica, sans-serif;
   }
-  /*скрываем чекбокс*/
-  #menu__toggle{
-    opacity:0;
-  }
+
   /*стилизуем кнопку*/
  .menu__btn{
     top: 32px;
